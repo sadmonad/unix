@@ -1,0 +1,25 @@
+1) ag - The Silver Searcher. Like ack, but faster.
+2) xclip - command line interface to X selections (clipboard)
+3) htop - interactive process viewer
+4) ss - another utility to investigate sockets
+5) diff - compare files line by line
+6) sort - sort lines of text files
+7) sed - stream editor for filtering and transforming text
+8) head & tail 
+9) less - opposite of more
+10) iptables/ip6tables — administration tool for IPv4/IPv6 packet filtering and NAT
+11) httpie - CLI, cURL-like tool for humans
+12) which - locate a command
+13) df - report file system disk space usage
+14) env - run a program in a modified environment
+15) ifconfig - configure a network interface
+16) od - dump files in octal and other formats
+17) rsync - a fast, versatile, remote (and local) file-copying tool
+18) uniq - report or omit repeated lines
+19) wc - print newline, word, and byte counts for each file
+20) Wget - The non-interactive network downloader
+21) tcpdump - dump traffic on a network
+22) ssh — OpenSSH SSH client (remote login program)
+23) expand - convert tabs to spaces
+24) split - split a file into pieces
+25) tset, reset - terminal initialization 
