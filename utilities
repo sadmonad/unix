@@ -23,3 +23,7 @@
 23) expand - convert tabs to spaces
 24) split - split a file into pieces
 25) tset, reset - terminal initialization 
+26) dmesg - print or control the kernel ring buffer
+27) ufw - program for managing a netfilter firewall
+28) lsusb - list USB devices
+29) lspci - list all PCI devices
