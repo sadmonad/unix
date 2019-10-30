@@ -27,3 +27,5 @@
 27) ufw - program for managing a netfilter firewall
 28) lsusb - list USB devices
 29) lspci - list all PCI devices
+30) insmod - Simple program to insert a module into the Linux Kernel
+31) rmmod - Simple program to remove a module from the Linux Kernel
