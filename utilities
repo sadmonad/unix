@@ -33,3 +33,4 @@
 33) whois - client for the whois directory service
 34) jq - Command-line JSON processor
 35) dig - DNS lookup utility
+36) readelf - Displays information about ELF files
