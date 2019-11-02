@@ -32,3 +32,4 @@
 32) base64 - base64 encode/decode data and print to standard output
 33) whois - client for the whois directory service
 34) jq - Command-line JSON processor
+35) dig - DNS lookup utility
