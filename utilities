@@ -34,3 +34,4 @@
 34) jq - Command-line JSON processor
 35) dig - DNS lookup utility
 36) readelf - Displays information about ELF files
+37) nmap - Network exploration tool and security / port scanner
