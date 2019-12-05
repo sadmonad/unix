@@ -35,3 +35,5 @@
 35) dig - DNS lookup utility
 36) readelf - Displays information about ELF files
 37) nmap - Network exploration tool and security / port scanner
+38) cut - remove sections from each line of files
+39) column — columnate lists
