@@ -38,3 +38,4 @@
 38) cut - remove sections from each line of files
 39) column — columnate lists
 40) du - estimate file space usage
+41) nl - number lines of files
