@@ -40,3 +40,4 @@
 40) du - estimate file space usage
 41) nl - number lines of files
 42) watch - execute a program periodically, showing output fullscreen
+43) hexedit - view and edit files in hexadecimal or in ASCII
