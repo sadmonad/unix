@@ -41,3 +41,4 @@
 41) nl - number lines of files
 42) watch - execute a program periodically, showing output fullscreen
 43) hexedit - view and edit files in hexadecimal or in ASCII
+44) nc — arbitrary TCP and UDP connections and listens
