@@ -1,0 +1,14 @@
+falcon - An unladen web framework for building APIs and app backends
+alembic - A database migration tool for SQLAlchemy
+sqlalchemy - Database Abstraction Library
+gunicorn - WSGI HTTP Server for UNIX
+requests - Python HTTP for Humans
+ipython - IPython: Productive Interactive Computing
+flask - A simple framework for building complex web applications
+celery - Distributed Task Queue
+django - A high-level Python Web framework that encourages rapid development and clean, pragmatic design
+redis - Python client for Redis key-value store
+amqp - Low-level AMQP client for Python (fork of amqplib)
+flower - Celery Flower
+jsonschema - An implementation of JSON Schema validation for Python
+

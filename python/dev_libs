@@ -1,0 +1,11 @@
+pytest - Simple powerful testing with Python
+pytest-benchmark - A pytest fixture for benchmarking code
+pytest-cov - Pytest plugin for measuring coverage
+pytest-socket - Pytest Plugin to disable socket calls during tests
+pytest-watch - Local continuous test runner with pytest and watchdog
+pytest-mock - Thin-wrapper around the mock package for easier use with py.test
+flake8 - The modular source code checker: pep8, pyflakes and co
+mimesis - Mimesis: fake data generator
+invoke - Pythonic task execution
+factory_boy - A versatile test fixtures replacement based on thoughtbot's factory_bot for Ruby
+poetry - Python dependency management and packaging made easy
