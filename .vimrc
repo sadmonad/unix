@@ -12,8 +12,6 @@ set encoding=utf-8
 set nocompatible
 set guifont=Inconsolata\ Nerd\ Font\ Complete\ Mono:h16
 set nosmd
-map q ^ZQ
-map z ^ZZ
 filetype plugin indent on
 syntax enable
 
