@@ -12,6 +12,9 @@ set encoding=utf-8
 set nocompatible
 set guifont=Inconsolata\ Nerd\ Font\ Complete\ Mono:h16
 set nosmd
+set relativenumber
+set list
+set lcs=eol:$,tab:->,trail:>
 filetype plugin indent on
 syntax enable
 
@@ -29,8 +32,14 @@ endif
 " Plugin list "
 call plug#begin('~/.vim/bundle') 
 Plug 'vim-airline/vim-airline'
-Plug 'valloric/youcompleteme'
 Plug 'jpalardy/vim-slime'
+Plug 'davidhalter/jedi-vim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'morhetz/gruvbox'
+Plug 'puremourning/vimspector'
 call plug#end()
 
 " Plugin specific variables "
@@ -47,3 +56,19 @@ let g:Powerline_symbols='unicode'
 " Slime "
 let g:slime_target = "vimterminal"
 
+" Deocomplete "
+let g:deoplete#enable_at_startup = 1
+
+" Need to install python3 -m pip install --user --upgrade jedi "
+" Jedi "
+let g:jedi#completions_enabled = 0
+let g:jedi#use_splits_not_buffers = "right"
+
+" Need to install python3 -m pip install --user --upgrade pynvim "
+" Vimspector "
+let g:vimspector_enable_mappings = "HUMAN"
+nnoremap <leader>o :call vimspector#StepOver()<CR>
+nnoremap <leader>i :call vimspector#StepInto()<CR>
+nnoremap <leader>b :call vimspector#ToggleBreakpoint()<CR>
+nnoremap <leader>l :call vimspector#Launch()<CR>
+nnoremap <leader>e :call vimspector#Reset()<CR>
