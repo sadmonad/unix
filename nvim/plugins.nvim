@@ -1,0 +1,11 @@
+call plug#begin('~/.vim/bundle') 
+Plug 'vim-airline/vim-airline'
+Plug 'jpalardy/vim-slime'
+Plug 'davidhalter/jedi-vim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'morhetz/gruvbox'
+Plug 'puremourning/vimspector'
+call plug#end()
