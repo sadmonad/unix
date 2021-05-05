@@ -1,0 +1,5 @@
+alias e='nvim'
+alias copy='xclip -selection clipboard'
+alias ss='ss -tlnp'
+alias di='docker image'
+alias dc='docker container'

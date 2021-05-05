@@ -1,0 +1,30 @@
+# Create a file with random bytes. Size must be specified in MB
+
+generate_file() {
+    which openssl >> /dev/null || echo "openssl was not found. Consider installing it" ; exit 1
+
+    local SIZE="$1"
+
+    if [[ -z "$SIZE" ]]; then
+        echo "Size of file must be specified!"
+        exit 255
+    fi
+
+    openssl rand -out data.bin $((SIZE * 2**20))
+}
+
+# Clone repo from github. Accepts user and repo
+
+git_clone(){
+    which git >> /dev/null || echo "git was not found. Consider installing it" ; exit 1
+
+    local USER="$1"
+    local REPO="$2"
+
+    if [[ -z "$USER" || -z "$REPO" ]]; then
+        echo "User and repo must be provided!"
+        exit 255
+    fi
+
+    git clone "https://github.com/${USER}/${REPO}.git"
+}
